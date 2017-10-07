@@ -23,7 +23,7 @@ import butterknife.OnClick
 /**
  * @author Krishna Kakadiya
  * *
- * @date 7-10-2017
+ * @date 10-7-2017
  * *
  * @file PizzaDetailActivity.java
  */
