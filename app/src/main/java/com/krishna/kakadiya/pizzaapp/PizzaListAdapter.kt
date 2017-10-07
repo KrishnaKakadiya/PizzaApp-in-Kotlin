@@ -10,11 +10,11 @@ import android.widget.ImageView
 import android.widget.TextView
 
 /**
- * @author eInfochips
+ * @author Krishna Kakadiya
  * *
- * @date 27-11-2015
+ * @date 7-10-2017
  * *
- * @file Constant.java
+ * @file PizzaListAdapter.java
  */
 
 class PizzaListAdapter(context: Activity, private val mPizzaName: Array<String>, private val mPizzaDescription: Array<String>, private val mPizzaRate: Array<String>, private val mImageId: Array<Int>) : ArrayAdapter<String>(context, R.layout.activity_custom_pizza_list, mPizzaName) {

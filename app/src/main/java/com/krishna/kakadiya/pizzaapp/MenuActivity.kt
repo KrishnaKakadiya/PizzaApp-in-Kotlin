@@ -20,11 +20,11 @@ import butterknife.ButterKnife
 import butterknife.OnClick
 
 /**
- * @author eInfochips
+ * @author Krishna Kakadiya
  * *
- * @date 27-11-2015
+ * @date 7-10-2017
  * *
- * @file Constant.java
+ * @file MenuActivity.java
  */
 class MenuActivity : AppCompatActivity() {
 

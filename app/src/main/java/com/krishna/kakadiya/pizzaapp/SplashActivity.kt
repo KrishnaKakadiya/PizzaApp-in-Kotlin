@@ -6,12 +6,13 @@ import android.os.Bundle
 import android.os.Handler
 
 /**
- * @author eInfochips
+ * @author Krishna Kakadiya
  * *
- * @date 27-11-2015
+ * @date 7-10-2017
  * *
- * @file Constant.java
+ * @file SplashActivity.java
  */
+
 
 class SplashActivity : Activity() {
     override fun onCreate(savedInstanceState: Bundle?) {
