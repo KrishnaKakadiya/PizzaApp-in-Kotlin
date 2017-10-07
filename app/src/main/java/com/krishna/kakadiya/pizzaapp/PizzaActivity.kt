@@ -26,10 +26,9 @@ import butterknife.OnClick
  */
 
 class PizzaActivity : AppCompatActivity() {
+    
     @Bind(R.id.toolbar_activity_name)
     internal lateinit var activityName: TextView
-   //val activityName: TextView by bindView(R.id.toolbar_activity_name)
-    //@BindView(R.id.toolbar) lateinit var toolbar: Toolbar
 
     @Bind(R.id.toolbar_back)
     internal lateinit var toolbarBack: ImageView
