@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="alisha.zaveri.ThankYouActivity">
+
+    <include layout="@layout/toolbar_layout"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/pizza_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/order_placed_successfully"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginBottom="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pizza"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/view_line"
+                android:layout_marginBottom="10dp"/>
+
+            <View
+                android:layout_height="1dp"
+                android:layout_width="match_parent"
+                android:background="@color/view_line"
+                android:layout_marginBottom="20dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/spinner_background">
+                <!--Name-->
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/billed_name"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/text_pizza"
+                    android:layout_marginBottom="1dp"
+                    android:id="@+id/textView"
+                    android:gravity="end"
+                    android:paddingEnd="15dp"/>
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:hint="@string/name_hint"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:paddingTop="7dp"
+                    android:paddingBottom="7dp"
+                    android:textSize="17sp"
+                    android:textColor="@color/black"
+                    android:gravity="start"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/spinner_background">
+                <!--Address-->
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/delivery_address"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/text_pizza"
+                    android:layout_marginBottom="1dp"
+                    android:gravity="end"
+                    android:paddingEnd="15dp"/>
+
+                <TextView
+                    android:id="@+id/address"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:hint="@string/address_hint"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:paddingTop="7dp"
+                    android:paddingBottom="7dp"
+                    android:textSize="17sp"
+                    android:textColor="@color/black"
+                    android:gravity="start"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/spinner_background">
+                <!--Contact Number-->
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/contact_number"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/text_pizza"
+                    android:layout_marginBottom="1dp"
+                    android:gravity="end"
+                    android:paddingEnd="15dp"/>
+
+                <TextView
+                    android:id="@+id/contact_number"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:hint="@string/contact_number_hint"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:paddingTop="7dp"
+                    android:paddingBottom="7dp"
+                    android:textSize="17sp"
+                    android:textColor="@color/black"
+                    android:gravity="start"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/spinner_background">
+                <!--Payment Method-->
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/payment_method"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/text_pizza"
+                    android:layout_marginBottom="1dp"
+                    android:gravity="end"
+                    android:paddingEnd="15dp"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:text="@string/via_credit_card"
+                    android:textColor="@color/black"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:paddingTop="7dp"
+                    android:paddingBottom="7dp"
+                    android:textSize="17sp"
+                    android:gravity="start"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+                <!--Paid Amount-->
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/paid_amount"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:gravity="end"
+                    android:paddingEnd="15dp"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:text="@string/rate"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:paddingTop="7dp"
+                    android:paddingBottom="7dp"
+                    android:textSize="22sp"
+                    android:textColor="@color/black"
+                    android:gravity="start"/>
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/btn_thank_you"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/thank_you"
+                android:gravity="center"
+                android:textColor="@color/spinner_background"
+                android:background="@color/text_pizza"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="0.5"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

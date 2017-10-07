@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#006998</color>
+    <color name="colorPrimaryDark">#004b76</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <item name="text_pizza" type="color">#1383c2</item>
+    <item name="spinner_background" type="color">#e0e0e0</item>
+    <item name="view_line" type="color">#004b76</item>
+    <item name="black" type="color">#000000</item>
+    <item name="white" type="color">#ffffff</item>
+</resources>

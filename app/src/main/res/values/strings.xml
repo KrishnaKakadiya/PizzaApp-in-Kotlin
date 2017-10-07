@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PizzaApp</string>
+    <string name="home">Surprise for the taste!!</string>
+    <string name="online_order">Click here to Order Now</string>
+    <string name="Welcome">No one can eat just once!</string>
+    <string name="pizza">Margerita</string>
+    <string name="Welcome_description">Pizza is a lifesaver, spirits-lifter, joy-bringer and quite a devoted friend. If you don’t feel like eating out, you may order pizza and enjoy it at home. We have the biggest variety of pizza. We’ve simplified the ordering process as much as possible. Right now you can order a pizza via the website, via your smartphone app. Find the store nearby and check out for yourself.</string>
+    <string name="description">It is a pan pizza loaded with cheddar and mozzerella cheese with pizza sauce.</string>
+    <string name="rate">$9.99</string>
+    <string name="dough">Dough</string>
+    <string name="size">Size</string>
+    <string name="toppings">Toppings</string>
+    <string name="checkout">Checkout</string>
+    <string name="finalize_order">Finalize Order</string>
+    <string name="cancel_order">Cancel Order</string>
+    <string name="name_hint">Krishna</string>
+    <string name="name">Name</string>
+    <string name="delivery_address">Delivery Address</string>
+    <string name="address_hint">Canada</string>
+    <string name="contact_number">Contact Number</string>
+    <string name="contact_number_hint">12345678990</string>
+    <string name="credit_card_hint">14 digit Number</string>
+    <string name="credit_card">Credit Card</string>
+    <string name="shipping_address">Book Order</string>
+    <string name="menu">Menu</string>
+    <string name="validate_order">Please enter all details</string>
+    <string name="validate_mobile">Please enter 10 digit mobile number.</string>
+    <string name="validate_credit_card">Please enter 14 digit credit card number.</string>
+    <string name="ok">OK</string>
+    <string name="order_placed_successfully">Yummy!!! You Order has been booked!!</string>
+    <string name="paid_amount">Paid Amount</string>
+    <string name="billed_name">Billed Name</string>
+    <string name="payment_method">Payment Method</string>
+    <string name="via_credit_card">Via Credit Card</string>
+    <string name="thank_you">Thank You</string>
+
+    <string-array name="pizza_name">
+        <item>Margerita</item>
+        <item>Ground Beef</item>
+        <item>Veggies</item>
+        <item>Hawaiian</item>
+        <item>Pepperoni</item>
+    </string-array>
+
+    <string-array name="pizza_description">
+        <item>Double cheese layer with tomato sauce.</item>
+        <item>Fresh beef loaded with mozzarella cheese.</item>
+        <item>Made with fresh tomato sauce and spices.</item>
+        <item>Green olives with fresh carrots.</item>
+        <item>Pizza sauce withs lots of pepperoni.</item>
+    </string-array>
+
+    <string-array name="pizza_rate">
+        <item>$8.99</item>
+        <item>$9.99</item>
+        <item>$6.68</item>
+        <item>$9.59</item>
+        <item>$18.2</item>
+    </string-array>
+
+    <string name="dough_prompt">Choose a dough</string>
+    <string-array name="dough_arrays">
+        <item>Multigrain</item>
+        <item>Original thin crust</item>
+        <item>Original Crust</item>
+        <item>Multigrain thin crust</item>
+        <item>Whole Wheat</item>
+    </string-array>
+
+    <string name="size_prompt">Choose a size</string>
+    <string-array name="size_arrays">
+        <item>8" Indy</item>
+        <item>10" Small</item>
+        <item>13" Medium</item>
+        <item>15" Large</item>
+    </string-array>
+
+    <!--CheckBox Items-->
+    <string name="checkbox_1">Red Onions</string>
+    <string name="checkbox_2">Pineapple</string>
+    <string name="checkbox_3">Hot Peppers</string>
+    <string name="checkbox_4">Jalapeno</string>
+    <string name="checkbox_5">Ham</string>
+    <string name="checkbox_6">Bacon Cumble</string>
+    <string name="checkbox_7">Permesan Cheese</string>
+    <string name="checkbox_8">Broccoli</string>
+    <string name="checkbox_9">Black Olives</string>
+    <string name="checkbox_10">Oregano</string>
+
+
+    <!--New Strings-->
+    <string name="toolbar_help">Help</string>
+    <string name="toolbar_pizza">Pizza</string>
+    <string name="toolbar_krishna">Krishna Kakadiya.</string>
+    <string name="activity_krishna">Krishna</string>
+    <string name="activity_menu">Menu</string>
+    <string name="activity_detail">Pizza Description</string>
+    <string name="activity_address">Shipping Address</string>
+    <string name="activity_order">Order Confirm</string>
+    <string name="my_self">My hobbies are painting drawing and cooking.I love to cook new dishes and I always try to add new flavors in pizza...</string>
+
+</resources>

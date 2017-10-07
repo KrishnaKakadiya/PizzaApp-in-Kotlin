@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/miHelp"
+        android:icon="@drawable/pro1"
+        android:title="@string/toolbar_help">
+    </item>
+    <item
+        android:id="@+id/miPizza"
+        android:icon="@drawable/pro1"
+        android:title="@string/toolbar_pizza">
+    </item>
+    <item
+        android:id="@+id/miYourName"
+        android:icon="@drawable/pro1"
+        android:title="@string/toolbar_krishna">
+    </item>
+</menu>
